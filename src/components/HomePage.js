@@ -9,7 +9,7 @@ const testimonials = [
     designation: "Operations & Logistics Manager, BOHECO",
     image: "ashish-verma.png",
     summary: "Quick product updates",
-    backgroundColor: "#f9c74f"
+    backgroundColor: "#d2f3f3"
   },
   {
     content: "The Zoho Inventory app has been really helpful in tracking the movement of key SKUs and the team has been very kind in providing us with solutions to our queries.",
@@ -17,7 +17,7 @@ const testimonials = [
     designation: "OYO Homes",
     image: "oyo-homes.png",
     summary: "Active support team",
-    backgroundColor: "#90be6d"
+    backgroundColor: "#ffeeee"
   },
   {
     content: "Zoho Inventory is an awesome software. It's automation feature is really nice. Most of the daily operations can be managed with the use of different APIs.",
@@ -25,7 +25,7 @@ const testimonials = [
     designation: "Owner, Chopra Lighthouse",
     image: "shubham.jpg",
     summary: "Automations via API",
-    backgroundColor: "#f94144"
+    backgroundColor: "#e6e3f3"
   },
   {
     content: "We manage all our inventory, sales, and purchases using Zoho Inventory and Zoho Books. They are easy to learn, easy to apply, and the support team is very helpful. We like Zoho very much!.",
@@ -33,7 +33,7 @@ const testimonials = [
     designation: "Managing Director, Azole Rasayanas Pvt. Ltd.",
     image: "azole-rasayanas.jpeg",
     summary: "Zoho Books integration",
-    backgroundColor: "#577590"
+    backgroundColor: "#ebe1bb"
   },
   {
     content: "Zoho Inventory has helped us to manage our inventory and customers efficiently and automate many of our business processes. Its effortless to navigate and its seamless integration with other Zoho products has proven to be very helpful.",
@@ -41,7 +41,7 @@ const testimonials = [
     designation: "Director, Fida India",
     image: "fida-india.jpg",
     summary: "Easy-to-use interface",
-    backgroundColor: "#f3722c"
+    backgroundColor: "#bbdeeb"
   }
 ];
 
@@ -82,10 +82,10 @@ const HomePage = () => {
         <div class="ratings-section">
               <div class="rating-1 rating-block">
                 <span class="rating-name">
-                  <img src="capterra-logo.svg" alt="https://www.capterra.com/p/146241/Zoho-Inventory/" width="88.845px"/>
+                  <img src="capterra-logo.svg" alt="https://www.capterra.com/p/146241/Zoho-Inventory/" width="88.8448px"/>
                 </span>
                 <span class="rating-stars">
-                  <img src="4dot5rating.svg" alt="Capterra Review -  Zoho Inventory" width="88.845px"/>
+                  <img src="4dot5rating.svg" alt="Capterra Review -  Zoho Inventory" width="88.8448px"/>
                 </span>
                 <span class="rating-number">4.5/<small>5</small></span>
               </div>
@@ -96,7 +96,7 @@ const HomePage = () => {
 
                 </span>
                 <span class="rating-stars">
-                  <img src="4dot5rating.svg" alt="G2-Crowd Review -  Zoho Inventory" width="88.845px"/>
+                  <img src="4dot5rating.svg" alt="G2-Crowd Review -  Zoho Inventory" width="88.8448px"/>
 
                 </span>
                 <span class="rating-number">4.5/<small>5</small></span>
@@ -107,7 +107,7 @@ const HomePage = () => {
                   <img src="software_advice.svg" alt="https://www.capterra.com/p/146241/Zoho-Inventory/" width="130px" height="30px"/>
                 </span>
                 <span class="rating-stars">
-                  <img src="4dot5rating.svg" alt="Software Advice Review -  Zoho Inventory" width="88.845px"/>
+                  <img src="4dot5rating.svg" alt="Software Advice Review -  Zoho Inventory" width="88.8448px"/>
                 </span>
                 <span class="rating-number">4.7/<small>5</small></span>
               </div>
@@ -125,7 +125,9 @@ const HomePage = () => {
       <section>
       <div class="app-store-section">
           <div class="app-store-section-wrap">
-            <h2>Download our mobile app for free</h2>
+            <h1>Join With Us</h1>
+            <br/>
+            <h4>and grow your Business with us</h4>
             <a href="#">
             <img class="mobile-badge zoom" src="appstore.png" alt="IOS nventory App - App Store| Zoho Inventory" target="_blank" rel="noopener noreferrer"/>
             </a>
@@ -176,6 +178,51 @@ const HomePage = () => {
             ))}
           </div>
         </section>
+
+
+        {/* footer */}
+            
+        <footer class="section-p1 home-container">
+        <div class="col">
+            <img class="logo" src="no/favicon.ico" alt="logo"/>
+            {/* <h4>Contact</h4> */}
+            {/* <p><strong>Address: </strong> 123 prahladnagar road,ahmedabad</p> */}
+            {/* <p><strong>Phone: </strong>+91 1234567890/+91 4412290900</p> */}
+            {/* <p><strong>Hours:</strong>10:00 - 22:00,MON-SAT</p> */}
+            
+        </div>
+        <div class="col">
+            <h4>Features</h4>
+            <a href="#">Order Management Software</a>
+            <a href="#">Inventory Management System</a>
+            <a href="#">Inventory Control</a>
+            <a href="#">Inventory Reports</a>
+            <a href="#">All features</a>
+        </div>
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">My Account</a>
+            <a href="#">Sign In</a>
+            <a href="#">View Inventory</a>
+            <a href="#">Contact us</a>
+            <a href="#">Help</a>
+        </div>
+        <div class="col install">
+            <p>Secured Payment Gateways</p>
+            <img src="pay.png" alt=""/>
+          <div class="follow">
+                  <h4>Follow us</h4>
+                  <div class="icon">
+                      <i class="fab fa-facebook-f"></i>
+                      <i class="fab fa-twitter"></i>
+                      <i class="fab fa-instagram"></i>
+                      <i class="fab fa-pinterest-p"></i>
+                      <i class="fab fa-youtube"></i>
+                  </div>
+            </div>
+         </div>
+    </footer>
+
         
       </>
   );
