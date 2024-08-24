@@ -1,0 +1,96 @@
+.myform-container {
+  background-color: #E5F6FF;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;  
+}
+
+
+.myform-fieldset {
+  background-color: #FFF;
+  border: 1px solid #ccc;
+  padding: 65px;
+  border-radius: 30px;
+  margin: 50px auto;
+  max-width: 800px;
+}
+
+.myform-legend {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.myform-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.myform-label-cell {
+  padding: 10px;
+  vertical-align: top;
+}
+
+.myform-input-cell {
+  padding: 10px;
+  vertical-align: top;
+}
+
+.myform-label {
+  display: block;
+  font-weight: bold;
+}
+
+.myform-input {
+  width: 450px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.myform-unit-select {
+  width: 70px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-left: 10px;
+}
+
+.myform-new-entry {
+  margin-top: 10px;
+  display: block;
+}
+
+.myform-textarea {
+  margin-top: 10px;
+  width: 450px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  min-height: 100px;
+}
+
+.myform-button-cell {
+  padding: 10px;
+  text-align: right;
+}
+
+.myform-button {
+  padding: 10px 20px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.myform-button-save {
+  background-color: #007bff;
+  color: #fff;
+  margin-right: 10px;
+}
+
+.myform-button-cancel {
+  background-color: #6c757d;
+  color: #fff;
+}
