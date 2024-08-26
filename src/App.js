@@ -5,24 +5,15 @@ import Footer from './components/Footer';
 import Composite_form from "./components/Composite_item.js";
 import Item_form from "./components/Item_form.js";
 
-// function App() {
-//   return (
-//     <div className="App">
-//       <NavBar />
-//       <HomePage />
-//       {/* <Footer /> */}
-//     </div>
-//   );
-// }
-
 function App() {
-    return (
-        <div>
-        	<Item_form />
-
-            <Composite_form />
-        </div>
-    );
+  return (
+    <div className="App">
+      <NavBar />
+      <HomePage />
+      {/* <Footer /> */}
+    </div>
+  );
 }
+
 
 export default App;
